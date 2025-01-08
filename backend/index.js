@@ -11,7 +11,7 @@ import connection from "./database/connection.js"
 connection();
 
 app.get("/", (req, res) => {
-  res.send('<h1>Hello World!</h1>')
+  res.send('Hello World!')
 })
 
 
