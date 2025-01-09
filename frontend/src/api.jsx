@@ -1,5 +1,5 @@
 import axios from "axios"
-const Base_Url = "api.leckeres-deal.de"
+const Base_Url = "https://api.leckeres-deal.de"
 const getMainAdminData = async (id) => {
     try {
         const resdata = await axios.put(`${Base_Url}/getMainAdminData/${id}`)
